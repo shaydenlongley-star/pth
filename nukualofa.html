@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nukuʻalofa Store — Pacific Timber &amp; Hardware Tonga</title>
+  <meta name="description" content="PTH Nukuʻalofa — our main store in Tonga's capital, fully stocked with building materials, timber, hardware, farm supplies and tools for Tongatapu and beyond.">
+  <meta property="og:title" content="Nukuʻalofa Store — Pacific Timber &amp; Hardware">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="images/logo-thumb.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css?v=1">
+  <style>
+    @media(max-width:960px){
+      #navMenu{
+        position:fixed!important;top:0!important;left:0!important;right:0!important;bottom:0!important;
+        width:100vw!important;height:100vh!important;min-height:100vh!important;
+        background:#04041e!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important;
+        flex-direction:column!important;align-items:center!important;justify-content:flex-start!important;
+        padding:96px 28px 40px!important;gap:4px!important;z-index:9999!important;
+        opacity:0!important;transform:translateX(100%)!important;pointer-events:none!important;
+        transition:opacity .32s ease,transform .32s cubic-bezier(.4,0,.2,1)!important;display:flex!important;
+      }
+      #navMenu.open{opacity:1!important;transform:translateX(0)!important;pointer-events:all!important;}
+      #navToggle{display:flex!important;z-index:10000!important;}
+      html,body{overflow-x:hidden!important;}
+    }
+  </style>
+</head>
+<body>
+
+<div class="preloader">
+  <div class="preloader-logo">
+    <img src="images/logo-thumb.png" alt="Pacific Timber &amp; Hardware" style="width:56px;height:56px;object-fit:contain;filter:brightness(0) invert(1)">
+    <div class="preloader-text"><strong>Pacific Timber</strong><span>&amp; Hardware</span></div>
+  </div>
+  <div class="preloader-track"><div class="preloader-fill"></div></div>
+</div>
+
+<nav class="navbar" id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="images/logo-thumb.png" alt="Pacific Timber &amp; Hardware" class="nav-logo-img">
+        <div class="nav-logo-text"><strong>Pacific Timber</strong><span>&amp; Hardware</span></div>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sales.html">Sales</a></li>
+        <li><a href="trade.html">Trade</a></li>
+        <li><a href="vip.html">VIP</a></li>
+        <li><a href="construction.html">Construction</a></li>
+        <li><a href="nukualofa.html" class="active">Nukuʻalofa</a></li>
+        <li><a href="haapai.html">Ha'apai</a></li>
+        <li><a href="vavau.html">Vava'u</a></li>
+      </ul>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span data-icon="menu" class="icon"></span>
+      </button>
+    </div>
+  </div>
+</nav>
+
+<section class="page-hero">
+  <div class="page-hero-bg"></div>
+  <div class="page-hero-overlay"></div>
+  <div class="page-hero-accent"></div>
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span class="breadcrumb-sep">/</span>
+      <span>Nukuʻalofa Store</span>
+    </div>
+    <span class="eyebrow">Main Branch — Tongatapu</span>
+    <h1>Nukuʻalofa <span>Store</span></h1>
+    <p>Our flagship store in Tonga's capital — fully stocked with the complete PTH product range for Tongatapu and the outer islands.</p>
+  </div>
+</section>
+
+<!-- STORE INFO + CONTACT -->
+<section class="section" id="info">
+  <div class="container">
+    <div class="contact-grid">
+      <div data-reveal="left">
+        <span class="eyebrow">Store Information</span>
+        <h2>Visit Us in <span style="color:var(--primary)">Nukuʻalofa</span></h2>
+        <div class="divider-left"></div>
+        <div class="contact-card">
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><span data-icon="map-pin" class="icon"></span></div>
+            <div class="contact-info-text">
+              <strong>Address</strong>
+              <a href="https://maps.google.com/?q=Pacific+Timber+Hardware+Nukualofa+Tonga" target="_blank" rel="noopener">Nukuʻalofa, Tongatapu, Kingdom of Tonga</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><span data-icon="clock" class="icon"></span></div>
+            <div class="contact-info-text">
+              <strong>Trading Hours</strong>
+              <span>Monday – Friday: 7:30am – 5:00pm<br>Saturday: 7:30am – 12:00pm<br>Sunday: Closed</span>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><span data-icon="phone" class="icon"></span></div>
+            <div class="contact-info-text">
+              <strong>Phone</strong>
+              <a href="tel:+67622345">+676 22 345</a>
+            </div>
+          </div>
+          <div class="contact-info-item">
+            <div class="contact-info-icon"><span data-icon="mail" class="icon"></span></div>
+            <div class="contact-info-text">
+              <strong>Email</strong>
+              <a href="mailto:nukualofa@pth.to">nukualofa@pth.to</a>
+            </div>
+          </div>
+        </div>
+        <div style="margin-top:24px;display:flex;gap:12px;flex-wrap:wrap;">
+          <a href="trade.html" class="btn btn-primary"><span data-icon="tool" class="icon"></span>Open a Trade Account</a>
+          <a href="vip.html" class="btn btn-outline"><span data-icon="star" class="icon"></span>Join VIP</a>
+        </div>
+      </div>
+      <div data-reveal="right">
+        <span class="eyebrow">Enquire Now</span>
+        <h2>Send Us a <span style="color:var(--primary)">Message</span></h2>
+        <div class="divider-left"></div>
+        <div class="contact-card">
+          <form id="contactForm">
+            <div class="form-group">
+              <label class="form-label" for="nk-name">Your Name</label>
+              <input type="text" id="nk-name" name="name" class="form-control" placeholder="Full name" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nk-email">Email Address</label>
+              <input type="email" id="nk-email" name="email" class="form-control" placeholder="you@example.com" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nk-phone">Phone Number</label>
+              <input type="tel" id="nk-phone" name="phone" class="form-control" placeholder="+676 XXXXX">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nk-subject">Subject</label>
+              <select id="nk-subject" name="subject" class="form-control">
+                <option value="">Select a topic...</option>
+                <option>General Enquiry</option>
+                <option>Trade Account</option>
+                <option>VIP Program</option>
+                <option>Product Availability</option>
+                <option>Construction Services</option>
+                <option>Sales Program (SDEP)</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="nk-msg">Message</label>
+              <textarea id="nk-msg" name="message" class="form-control" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center;">
+              Send Message
+              <span data-icon="arrow-right" class="icon"></span>
+            </button>
+          </form>
+          <div id="formSuccess" style="display:none;text-align:center;padding:40px 0;">
+            <div style="width:56px;height:56px;background:rgba(1,112,185,0.1);border:1px solid rgba(1,112,185,0.3);border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 16px;">
+              <span data-icon="check" class="icon" style="color:var(--primary);width:24px;height:24px;"></span>
+            </div>
+            <h4 style="color:#fff;margin-bottom:8px;">Message Sent</h4>
+            <p style="font-size:0.9rem">Thanks! Our Nukuʻalofa team will be in touch shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT STORE -->
+<section class="section section-alt" id="about">
+  <div class="container">
+    <div class="split">
+      <div class="split-img" data-reveal="left">
+        <img src="images/Pacific-Timber-Hardware.jpg" alt="PTH Nukuʻalofa store" style="width:100%;height:480px;object-fit:cover;object-position:center 60%;border-radius:var(--radius-lg);">
+        <div class="split-img-badge">Nukuʻalofa</div>
+      </div>
+      <div class="split-text" data-reveal="right">
+        <span class="eyebrow">Our Flagship Store</span>
+        <h2>Tonga's Hardware <span style="color:var(--primary)">Home Base</span></h2>
+        <div class="divider-left"></div>
+        <p>The Nukuʻalofa store is PTH's main branch and the largest hardware operation in the Kingdom. As the country's capital and commercial hub, Nukuʻalofa is where we stock our deepest range — every product category fully loaded and ready for builders, contractors and homeowners across Tongatapu.</p>
+        <p>Our full trade desk, VIP counter and construction team are all based here. If you're a first-time visitor or a long-time customer, our team is here to help you find exactly what you need.</p>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;margin-top:24px;">
+          <a href="trade.html" class="btn btn-primary">Trade Account <span data-icon="arrow-right" class="icon"></span></a>
+          <a href="vip.html" class="btn btn-outline">VIP Rewards <span data-icon="arrow-right" class="icon"></span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT'S IN STORE -->
+<section class="section" id="range">
+  <div class="container">
+    <div class="section-header" data-reveal>
+      <span class="eyebrow">What We Stock</span>
+      <h2>Full Range, <span style="color:var(--primary)">Right Here in Nukuʻalofa</span></h2>
+      <div class="divider"></div>
+    </div>
+    <div class="grid-3" data-reveal>
+      <div class="feature-card">
+        <div class="feature-icon"><span data-icon="building" class="icon"></span></div>
+        <h4>Building Materials</h4>
+        <p>Timber, cement, steel, plywood, roofing and all structural materials for residential and commercial builds across Tonga.</p>
+      </div>
+      <div class="feature-card" data-delay="1">
+        <div class="feature-icon"><span data-icon="tool" class="icon"></span></div>
+        <h4>Hardware &amp; Tools</h4>
+        <p>Hand tools, power tools from DeWalt and Stanley, fasteners and all the hardware for any project.</p>
+      </div>
+      <div class="feature-card" data-delay="2">
+        <div class="feature-icon"><span data-icon="leaf" class="icon"></span></div>
+        <h4>Farm &amp; Agricultural Supplies</h4>
+        <p>Fencing, irrigation, rural hardware and agricultural supplies for Tonga's farming community.</p>
+      </div>
+      <div class="feature-card" data-delay="3">
+        <div class="feature-icon"><span data-icon="zap" class="icon"></span></div>
+        <h4>Electrical &amp; Plumbing</h4>
+        <p>Full range of electrical and plumbing materials and fittings for residential and commercial projects.</p>
+      </div>
+      <div class="feature-card" data-delay="4">
+        <div class="feature-icon"><span data-icon="package" class="icon"></span></div>
+        <h4>Paint &amp; Finishes</h4>
+        <p>Dulux, Cabot's and a complete range of paints, coatings, stains and application equipment.</p>
+      </div>
+      <div class="feature-card" data-delay="5">
+        <div class="feature-icon"><span data-icon="shield" class="icon"></span></div>
+        <h4>Safety Equipment</h4>
+        <p>PPE, safety signage, workwear and all safety gear required on modern construction sites.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section">
+  <div class="container">
+    <span class="eyebrow" style="color:rgba(255,255,255,0.7)">Also in Tonga</span>
+    <h2>Stores Across <br>the Kingdom</h2>
+    <p>PTH also operates stores in Ha'apai and Vava'u — carrying the same product range for customers across the island groups.</p>
+    <div class="cta-actions">
+      <a href="haapai.html" class="btn" style="background:#fff;color:var(--primary);border-color:#fff;">
+        <span data-icon="store" class="icon"></span>Ha'apai Store
+      </a>
+      <a href="vavau.html" class="btn btn-ghost">
+        <span data-icon="store" class="icon"></span>Vava'u Store
+      </a>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo-horizontal.png" alt="Pacific Timber and Hardware" class="footer-logo">
+          <p>Tonga's leading supplier of building materials, timber, hardware and farm supplies — proudly serving the Kingdom of Tonga.</p>
+        </div>
+        <div>
+          <h5>Our Programs</h5>
+          <ul class="footer-links">
+            <li><a href="sales.html">Sales Program (SDEP)</a></li>
+            <li><a href="trade.html">Trade Account</a></li>
+            <li><a href="vip.html">VIP Rewards</a></li>
+            <li><a href="construction.html">Construction Services</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Our Stores</h5>
+          <ul class="footer-links">
+            <li><a href="nukualofa.html">Nukuʻalofa Store</a></li>
+            <li><a href="haapai.html">Ha'apai Store</a></li>
+            <li><a href="vavau.html">Vava'u Store</a></li>
+          </ul>
+        </div>
+        <div>
+          <h5>Contact</h5>
+          <div class="footer-store-title">Nukuʻalofa</div>
+          <div class="footer-contact-item"><span data-icon="phone" class="icon"></span><a href="tel:+67622345">+676 22 345</a></div>
+          <div class="footer-contact-item"><span data-icon="mail" class="icon"></span><a href="mailto:nukualofa@pth.to">nukualofa@pth.to</a></div>
+          <div class="footer-store-title">Ha'apai</div>
+          <div class="footer-contact-item"><span data-icon="phone" class="icon"></span><a href="tel:+67660123">+676 60 123</a></div>
+          <div class="footer-contact-item"><span data-icon="mail" class="icon"></span><a href="mailto:haapai@pth.to">haapai@pth.to</a></div>
+          <div class="footer-store-title">Vava'u</div>
+          <div class="footer-contact-item"><span data-icon="phone" class="icon"></span><a href="tel:+67670456">+676 70 456</a></div>
+          <div class="footer-contact-item"><span data-icon="mail" class="icon"></span><a href="mailto:vavau@pth.to">vavau@pth.to</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <span>© 2026 Pacific Timber &amp; Hardware. All rights reserved.</span>
+      <span>Built for the Kingdom.</span>
+    </div>
+  </div>
+</footer>
+
+<button class="back-to-top" aria-label="Back to top"><span data-icon="arrow-left" class="icon" style="transform:rotate(90deg)"></span></button>
+<script src="js/icons.js?v=2"></script>
+<script src="js/main.js?v=1"></script>
+</body>
+</html>
