@@ -481,7 +481,7 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
   .categories-grid { grid-template-columns:repeat(2,1fr); }
   .services-grid { grid-template-columns:1fr; }
   .hero { min-height:auto; padding-top:calc(var(--nav-height) + 10px); padding-bottom:40px; }
-  .hero-photo { background-position:right center; }
+  .hero-photo { background-position:75% center; }
   .hero h1 { font-size:clamp(2.4rem,8vw,3.6rem); }
   .hero p { font-size:1rem; }
   .hero-actions { gap:10px; }
