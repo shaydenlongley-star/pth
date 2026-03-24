@@ -104,6 +104,7 @@ img { max-width:100%; display:block; }
 }
 .preloader.done { opacity:0; visibility:hidden; pointer-events:none; }
 .preloader-logo { display:flex; align-items:center; gap:16px; }
+@media(max-width:640px){ .preloader-logo { flex-direction:column; text-align:center; } }
 .preloader-mark {
   width:56px; height:56px; border-radius:var(--radius);
   background:var(--primary); display:flex; align-items:center; justify-content:center;
