@@ -380,6 +380,8 @@ select.form-control { appearance:none; background-image:url("data:image/svg+xml,
 .cta-section h2 { color:#fff; margin-bottom:14px; }
 .cta-section p  { color:rgba(255,255,255,0.85); font-size:1.05rem; max-width:520px; margin:0 auto 36px; }
 .cta-actions { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+.hero .btn-ghost { color:#fff; border-color:rgba(255,255,255,0.40); }
+.hero .btn-ghost:hover { background:rgba(255,255,255,0.12); border-color:rgba(255,255,255,0.80); color:#fff; }
 .cta-section .btn-ghost { border-color:rgba(255,255,255,0.45); color:#fff; }
 .cta-section .btn-ghost:hover { background:rgba(255,255,255,0.14); border-color:#fff; color:#fff; }
 
